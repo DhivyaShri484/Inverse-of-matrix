@@ -20,22 +20,24 @@ Use nested lists to append list.
 Print the inverse of the array using np.linalg.inv .
 
 ## PROGRAM:
+#Developed By: B.Dhivya Shri
+#Ref No:21002377
 import numpy as np
-l1,l2=[],[]
-n1,n2=int(input()),int(input())
-for i in range(n1):
-    for j in range(n2):
-        values=int(input())
-        l1.append(values)
-    l2.append(l1)
+l1,l2 = [],[]
+r,c= int(input()),int(input())
+for i in range(r):
+    for j in range(c):
+        num=int(input ())
+        l1.append (num)
+    l2. append (l1)
     l1=[]
-print(l2)
-a=np.linalg.inv(l2)
-print(a)
+print (l2)
+valuel=np.array(l2)
+inverse = np.linalg.inv(valuel)
+print (Inverse)
 
 ## OUTPUT:
-![image](https://user-images.githubusercontent.com/94505585/154477604-fa373a22-a936-4e2e-a327-eb75821bd570.png)
-
+![image](https://user-images.githubusercontent.com/94505585/154478052-ac42c5bd-2f8c-4cd8-b075-4548fcc0e412.png)
 
 ## RESULT:
 Thus the program is written to perform Inverse-of-matrix using python programming.
