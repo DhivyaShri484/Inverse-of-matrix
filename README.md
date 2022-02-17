@@ -25,18 +25,17 @@ Print the value of the inverse
 
 ## PROGRAM:
 import numpy as np
-l1,l2 = [],[]
-r,c= int(input()),int(input())
-for i in range(r):
-    for j in range(c):
-        num=int(input ())
-        l1.append (num)
-    l2. append (l1)
+l1,l2=[],[]
+n1,n2=int(input()),int(input())
+for i in range(n1):
+    for j in range(n2):
+        values=int(input())
+        l1.append(values)
+    l2.append(l1)
     l1=[]
-print (l2)
-valuel=np.array(l2)
-inverse = np.linalg.inv(valuel)
-print (Inverse)
+print(l2)
+a=np.linalg.inv(l2)
+print(a)
 
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/94505585/154476700-093a1f61-3680-4274-85b4-ae8b257b1f86.png)
