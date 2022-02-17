@@ -20,6 +20,7 @@ Use nested lists to append list.
 Print the inverse of the array using np.linalg.inv .
 
 ## PROGRAM:
+```
 import numpy as np
 rows=int(input())
 columns=int(input())
@@ -32,6 +33,7 @@ for i in range(rows):
     l1+=[temp]
 print(l1)
 print(np.linalg.inv(l1))
+```
 
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/94505585/154478544-72c33e59-173d-4be9-89c4-7c62edc7f546.png)
